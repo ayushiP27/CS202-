@@ -1,0 +1,31 @@
+AYUSHI PATEL 
+2020CSB1080
+
+I have created two versions of the game - Text Version and Graphic Version. 
+
+The logic for both the versions is same only the output pattern is different.
+
+
+
+ALGORITHM - 
+
+1) The program will have to choose from the words that have been already saved in the program. So for this, I have made the word list and entered all the words that I wanted. The code will randomly select a word from this list and give it to the user. 
+
+
+2) We will see the no of letters in the word displayed in the form of dashes and then we have to make a guess. This is part of main program. 
+
+3) Then I have made a subroutine Letter to check whether the guess we made is right or not. Each letter of the given word has an index value and the program will compare the input guess with all the index value. In this way it will check whether our guess id right or wrong. 
+
+4) Another subroutine is playerWin to check if the player has won or not. 
+
+5) Then we have subroutine hangman1,  hangman2, hangman3, and so on. These are actually for showing the no of body parts left in the hangman. 
+
+
+
+HOW TO EXECUTE THE CODE?
+
+I) As we will press run the program will welcome us and a word will be displayed in the form of blanks.
+
+II) It will ask the player to make a guess. If the guess is right the letter which you guessed will appear in place of blank and if wrong then Hangman will lose one body part. 
+
+III) If you are able to guess the word without exhausting your chances you will win. 

@@ -1,0 +1,26 @@
+
+I have implemented player vs player tic-tac-toe game
+
+First it will ask for the name of both players. 
+
+Then player 1 will have chance and it will input the row and column where it wants to enter the symbol 
+
+
+Then player 2 will have chance and it will input the row and column where it wants to enter the symbol 
+
+I have assigned the symbols for the players already. 
+
+After each turn the game board will be displayed and it will keep on updating after every chance. 
+
+The code has been implemented in such a way that after every turn, it will be checked if any player has won or not, if the board if full or not.
+
+In case the board is full the game will end in a TIE. 
+
+This, is all about the game. 
+
+
+Coming to the code -
+
+I have created the game board by using array data structure.
+
+Then I have made function for Displaying board and deciding the winners. All the things are mentioned in the code in the form of comments.
