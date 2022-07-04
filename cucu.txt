@@ -1,0 +1,28 @@
+AYUSHI PATEL 
+2020CSB1080 
+
+I have made compiler CUCU for a language similar to C that has some features of the C programming language. 
+
+There are four files in total - 
+
+cucu.l - lex file 
+
+cucu.y - yacc file 
+
+sample1.c - correct syntax code 
+
+sample2.c - incorrect syntax code 
+
+
+
+
+INSTRUCTIONS ABOUT HOW TO EXECUTE THE PROGRAM - 
+
+# We will run the lexer file by giving the command - “lex lexer.l”
+
+# First, we will compile our yacc program by using the command - "yacc -v -d parser1.y"
+
+# Now, to generate executable file we will use command - "gcc -ll y.tab.c" 
+
+# Final step is testing our compiler with the help of sample code. Since, I have made compiler for C I will use a basic C program sample1.c 
+By using the command - "./a.out<input1.c" we will check our compiler. 
